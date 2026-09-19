@@ -1,0 +1,6 @@
+{
+  "name": "Fellows Faubourg Saint-Denis",
+  "description": "Contemporary vegetarian restaurant in Paris 10e serving fresh homemade pasta, signature Cacio e Zaatar, and Parisian flavors at 84 Rue du Faubourg Saint-Denis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
