@@ -119,14 +119,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <Utensils className="w-3.5 h-3.5" />
               Menu
             </button>
-            <button
-              id="nav-book-btn"
-              onClick={onOpenReservation}
-              className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#C85A32] hover:bg-[#B34D27] shadow-xs rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#C85A32]"
-            >
-              <Calendar className="w-3.5 h-3.5" />
-              Book a Table
-            </button>
+          
           </div>
 
           {/* Mobile menu trigger */}
@@ -180,17 +173,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </nav>
 
           <div className="pt-2 flex flex-col gap-2">
-            <button
-              id="mobile-drawer-book-btn"
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onOpenReservation();
-              }}
-              className="w-full flex items-center justify-center gap-2 py-3 text-sm font-semibold uppercase tracking-wider text-white bg-[#C85A32] hover:bg-[#B34D27] rounded-md shadow-xs"
-            >
-              <Calendar className="w-4 h-4" />
-              Book a Table (SevenRooms)
-            </button>
+           
             <a
               id="mobile-drawer-menu-link"
               href={RESTAURANT.menuUrl}

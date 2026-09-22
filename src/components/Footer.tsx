@@ -54,17 +54,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenReservation }
                 </div>
               </div>
               <div className="pt-2">
-                <a
-                  id="footer-directions-link"
-                  href={RESTAURANT.directionsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#E2725B] hover:text-[#FFA07A] transition-colors"
-                >
-                  <Compass className="w-3.5 h-3.5" />
-                  Get Walking / Transit Directions
-                  <ExternalLink className="w-3 h-3" />
-                </a>
+               
               </div>
             </div>
           </div>
@@ -154,14 +144,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenReservation }
               </div>
             </div>
 
-            <button
-              id="footer-booking-btn"
-              onClick={onOpenReservation}
-              className="w-full flex items-center justify-center gap-2 py-3 px-4 text-xs font-semibold uppercase tracking-wider text-white bg-[#C85A32] hover:bg-[#B34D27] rounded-md transition-colors shadow-xs"
-            >
-              <Calendar className="w-4 h-4" />
-              Reserve on SevenRooms
-            </button>
+            
           </div>
         </div>
 
