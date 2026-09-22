@@ -123,19 +123,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenReservation }
                   Guest Reviews ({RESTAURANT.reviewCount.toLocaleString()})
                 </button>
               </li>
-              <li>
-                <a
-                  id="footer-official-carte-link"
-                  href={RESTAURANT.menuUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-[#E2725B] hover:text-[#FFA07A]"
-                >
-                  <Utensils className="w-3.5 h-3.5" />
-                  Official Online Menu
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </li>
+              
             </ul>
           </div>
 
